@@ -74,7 +74,7 @@ let jokers = [
   {
     name: "The Solitary",
     text: [
-      "Gain {X:mult,C:white}X#2#{} Mult per {C:attention}High Card{} played, resets when {C:attention}Boss Blind{} is defeated"
+      "Gain {X:mult,C:white}X0.25{} Mult per {C:attention}High Card{} played, resets when {C:attention}Boss Blind{} is defeated"
     ],
     image_url: "img/solitary.png",
     rarity: "Rare"
