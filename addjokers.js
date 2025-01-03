@@ -53,7 +53,7 @@ let jokers = [
       "All listed probabilities are reduced to {C:green}0"
     ],
     image_url: "img/snakenest.png",
-    rarity: "Uncommoon"
+    rarity: "Uncommon"
   },
   {
     name: "Album Cover",
