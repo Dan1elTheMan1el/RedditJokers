@@ -380,7 +380,7 @@ SMODS.Joker{ -- The Solitary
         Xmult_mod = card.ability.x_mult
       }
     end
-    if context.before and next(context.poker_hands["High Card"]) then
+    if context.before and (context.scoring_name == "High Card") then
       card.ability.x_mult = card.ability.x_mult + card.ability.x_mult_gain
       card_eval_status_text(
         card,
